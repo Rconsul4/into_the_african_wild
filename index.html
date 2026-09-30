@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="An immersive Kenya safari experience website featuring the Masai Mara, Lake Nakuru, Lake Naivasha and Amboseli." />
+  <meta name="theme-color" content="#07110f" />
+  <title>Safari Experience — Kenya</title>
+  <link rel="preload" href="assets/hero-migration.webp" as="image" type="image/webp" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="Safari Experience home">
+        <span class="brand-mark" aria-hidden="true">S</span>
+        <span class="brand-copy"><strong>Safari Experience</strong><small>Kenya journeys</small></span>
+      </a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="siteNav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+        <a href="#about">What safari is</a>
+        <a href="#destinations">Destinations</a>
+        <a href="#journey">Journey</a>
+        <a href="#stays">Stays</a>
+        <a href="#planner">Find your style</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch theme">☼</button>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"><span id="scrollProgress"></span></div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="heroTitle">
+      <img class="hero-media" src="assets/hero-migration.webp" alt="A vast East African savannah filled with migrating wildlife" />
+      <div class="hero-overlay"></div>
+      <div class="shell hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Kenya · private safari experiences</p>
+          <h1 id="heroTitle">Wake before sunrise.<br />Watch the wild come alive.</h1>
+          <p class="hero-lead">A safari is more than seeing animals. It is the rhythm of dawn game drives, long horizons, quiet moments around camp, and the anticipation of what may appear around the next bend.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#about">Discover the experience</a>
+            <a class="button ghost" href="#planner">Find my safari style</a>
+          </div>
+        </div>
+        <aside class="hero-card reveal" aria-label="Safari at a glance">
+          <span class="mini-label">The feeling</span>
+          <blockquote>“You are not watching nature from the outside. For a few days, your day moves with it.”</blockquote>
+          <div class="hero-stats">
+            <div><strong>4</strong><span>signature regions</span></div>
+            <div><strong>2</strong><span>daily safari windows</span></div>
+            <div><strong>1</strong><span>journey built around you</span></div>
+          </div>
+        </aside>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to learn what a safari is"><span></span>Start the journey</a>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="shell intro-grid">
+        <div class="section-copy reveal">
+          <p class="eyebrow">What a safari is actually about</p>
+          <h2>It is a sequence of moments, not a checklist.</h2>
+          <p class="lead">The best days have a natural rhythm: leave while the air is cool, follow fresh tracks with your guide, return for breakfast or continue with a packed lunch, slow down in the heat of the afternoon, then head out again as the light softens.</p>
+          <p>Across the current Kenya itineraries, that rhythm is built around the Masai Mara, Lake Nakuru, Lake Naivasha and Amboseli, with stays ranging from classic lodges to intimate tented camps.</p>
+        </div>
+        <div class="day-rhythm reveal" role="list" aria-label="A day on safari">
+          <article role="listitem"><span>05:30</span><div><b>Before sunrise</b><p>Warm layers, coffee, first light and a quiet departure from camp.</p></div></article>
+          <article role="listitem"><span>06:00</span><div><b>Morning game drive</b><p>Predators may still be active and the landscape is at its most photogenic.</p></div></article>
+          <article role="listitem"><span>12:00</span><div><b>Pause and reset</b><p>Lunch, rest, a pool, a book, or simply time to take in the surroundings.</p></div></article>
+          <article role="listitem"><span>16:00</span><div><b>Afternoon drive</b><p>Return to the plains as temperatures fall and wildlife becomes active again.</p></div></article>
+          <article role="listitem"><span>19:30</span><div><b>Camp at night</b><p>Dinner, stories from the day and the sounds of the bush beyond the lights.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience-strip" aria-label="Safari experience highlights">
+      <div class="shell strip-grid">
+        <div class="strip-item reveal"><span>01</span><b>Track wildlife</b><p>Lion, leopard, cheetah, elephant, giraffe, buffalo and more.</p></div>
+        <div class="strip-item reveal"><span>02</span><b>Follow the landscape</b><p>Open savannah, escarpments, lakes, woodland and Kilimanjaro views.</p></div>
+        <div class="strip-item reveal"><span>03</span><b>Stay close to nature</b><p>Tented camps and lodges place the experience at the centre of the journey.</p></div>
+        <div class="strip-item reveal"><span>04</span><b>Travel with a guide</b><p>The guide turns sightings into context, behaviour and understanding.</p></div>
+      </div>
+    </section>
+
+    <section class="section destinations" id="destinations">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Where the journey unfolds</p><h2>Four landscapes. Four different moods.</h2></div>
+          <p>Instead of treating every stop as interchangeable, the experience changes as the landscape changes. Select a destination to see what makes it distinct.</p>
+        </div>
+
+        <div class="destination-layout">
+          <div class="destination-tabs reveal" role="tablist" aria-label="Safari destinations">
+            <button class="destination-tab active" type="button" role="tab" aria-selected="true" data-destination="mara"><span>01</span><b>Masai Mara</b><small>Big cats · open plains</small></button>
+            <button class="destination-tab" type="button" role="tab" aria-selected="false" data-destination="nakuru"><span>02</span><b>Lake Nakuru</b><small>Rift Valley · wildlife</small></button>
+            <button class="destination-tab" type="button" role="tab" aria-selected="false" data-destination="naivasha"><span>03</span><b>Lake Naivasha</b><small>Water · slower pace</small></button>
+            <button class="destination-tab" type="button" role="tab" aria-selected="false" data-destination="amboseli"><span>04</span><b>Amboseli</b><small>Elephants · Kilimanjaro</small></button>
+          </div>
+          <article class="destination-panel reveal" id="destinationPanel" aria-live="polite">
+            <img id="destinationImage" src="assets/hero-migration.webp" alt="Masai Mara savannah" />
+            <div class="destination-shade"></div>
+            <div class="destination-copy">
+              <p class="eyebrow" id="destinationKicker">Iconic safari country</p>
+              <h3 id="destinationTitle">Masai Mara National Reserve</h3>
+              <p id="destinationText">Classic East African savannah with exceptional concentrations of wildlife and a strong reputation for big-cat sightings.</p>
+              <div class="tag-row" id="destinationTags"><span>lion</span><span>leopard</span><span>cheetah</span><span>migration landscape</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">An example journey</p><h2>From the Mara to the mountain.</h2></div>
+          <p>This seven-day flow mirrors the longer Kenya itineraries and shows how a multi-region safari can build contrast without turning every day into a transfer.</p>
+        </div>
+        <div class="journey-board reveal">
+          <div class="journey-line" aria-hidden="true"></div>
+          <article class="journey-stop"><span class="day">Days 1–2</span><div class="dot"></div><div><h3>Masai Mara</h3><p>Begin with the strongest wildlife immersion: game drives, big-cat country and the option of a balloon morning.</p></div></article>
+          <article class="journey-stop"><span class="day">Day 3</span><div class="dot"></div><div><h3>Lake Nakuru</h3><p>Shift into Rift Valley scenery and a more compact park environment before continuing south.</p></div></article>
+          <article class="journey-stop"><span class="day">Day 4</span><div class="dot"></div><div><h3>Lake Naivasha</h3><p>A slower lake setting creates breathing room between the denser game-drive days.</p></div></article>
+          <article class="journey-stop"><span class="day">Days 5–6</span><div class="dot"></div><div><h3>Amboseli</h3><p>Finish with elephants, open plains and the possibility of Kilimanjaro appearing beyond the park.</p></div></article>
+          <article class="journey-stop"><span class="day">Day 7</span><div class="dot"></div><div><h3>Nairobi</h3><p>Return to the city and connect onward with the safari experience still fresh.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visual-story section">
+      <div class="shell visual-grid">
+        <article class="feature-image large reveal">
+          <img src="assets/amboseli.webp" alt="Elephants walking with Mount Kilimanjaro in the distance" loading="lazy" />
+          <div class="feature-caption"><span>Amboseli</span><h3>Scale changes your sense of distance.</h3><p>Elephants can fill the foreground while the mountain holds the horizon.</p></div>
+        </article>
+        <article class="feature-image reveal">
+          <img src="assets/balloon.webp" alt="Hot air balloon above the Masai Mara" loading="lazy" />
+          <div class="feature-caption"><span>Optional experience</span><h3>See the Mara from above.</h3></div>
+        </article>
+        <article class="feature-image reveal">
+          <img src="assets/mara-guide.webp" alt="A Maasai guide standing on the open plains" loading="lazy" />
+          <div class="feature-caption"><span>Human connection</span><h3>Context makes the landscape richer.</h3></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section stays" id="stays">
+      <div class="shell">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">Where you stay matters</p><h2>The camp is part of the safari, not just the bed.</h2></div>
+          <p>The current itinerary set spans classic lodges, luxury tented camps and conservancy stays. The right stay changes privacy, atmosphere and how much of the day feels connected to the landscape.</p>
+        </div>
+        <div class="stay-grid">
+          <article class="stay-card reveal"><img src="assets/mara-dining.webp" alt="Sunset dining at a safari camp" loading="lazy" /><div><span class="card-kicker">Immersive</span><h3>Tented safari camps</h3><p>Canvas, open air and a stronger sense that the bush is just beyond your room.</p><small>Examples in current itineraries: Mara Ngenche, Elephant Pepper, Olare Mara Kempinski, Emayian.</small></div></article>
+          <article class="stay-card reveal"><img src="assets/chui-lodge.webp" alt="Pool and outdoor area at Chui Lodge" loading="lazy" /><div><span class="card-kicker">Restorative</span><h3>Lake lodges</h3><p>A softer tempo between major game reserves, with time to rest and enjoy the property.</p><small>Examples in current itineraries: Chui Lodge, Enashipai Resort & Spa, Lake Naivasha Sopa.</small></div></article>
+          <article class="stay-card reveal"><img src="assets/nakuru-cliff.webp" alt="Dining area at a lodge overlooking the landscape" loading="lazy" /><div><span class="card-kicker">Scenic</span><h3>Rift Valley stays</h3><p>Views and elevated settings can make even the transition nights feel like a destination.</p><small>Examples in current itineraries: The Cliff, Mbweha Camp, Sarova Lion Hill.</small></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section planner" id="planner">
+      <div class="shell planner-grid">
+        <div class="planner-copy reveal">
+          <p class="eyebrow">Find your safari style</p>
+          <h2>What do you want the trip to feel like?</h2>
+          <p>This does not calculate a price. It helps shape the experience before choosing a specific itinerary.</p>
+          <form id="styleForm" class="preference-form">
+            <fieldset>
+              <legend>Choose what matters most</legend>
+              <label><input type="checkbox" name="pref" value="wildlife" checked /><span><b>Maximum wildlife time</b><small>Prioritise game drives and fewer distractions.</small></span></label>
+              <label><input type="checkbox" name="pref" value="pace" /><span><b>Slower pace</b><small>More time at camp and less moving between regions.</small></span></label>
+              <label><input type="checkbox" name="pref" value="landscape" checked /><span><b>Landscape variety</b><small>Mix savannah, lakes, escarpments and mountain views.</small></span></label>
+              <label><input type="checkbox" name="pref" value="privacy" /><span><b>More privacy</b><small>Favour smaller camps and conservancy-style experiences.</small></span></label>
+              <label><input type="checkbox" name="pref" value="special" /><span><b>Special moments</b><small>Balloon safari, memorable dining and celebration touches.</small></span></label>
+            </fieldset>
+          </form>
+        </div>
+        <aside class="recommendation reveal" aria-live="polite">
+          <span class="mini-label">Suggested experience shape</span>
+          <h3 id="styleTitle">Classic Kenya discovery</h3>
+          <p id="styleText">A multi-region safari combining the Masai Mara, the Rift Valley lakes and Amboseli. Strong wildlife time with enough contrast to make each stop feel different.</p>
+          <div class="recommendation-list" id="styleList">
+            <span>2 nights Mara</span><span>1 night Nakuru</span><span>1 night Naivasha</span><span>2 nights Amboseli</span>
+          </div>
+          <a class="button primary full" href="#journey">Explore the safari journey</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section moments">
+      <div class="shell">
+        <div class="section-heading reveal"><div><p class="eyebrow">Moments worth building around</p><h2>Make space for one unforgettable thing.</h2></div><p>Optional experiences work best when they deepen the trip rather than fill every hour.</p></div>
+        <div class="moment-grid">
+          <article class="moment-card reveal"><span>Sunrise</span><h3>Balloon over the Mara</h3><p>Rise before dawn and watch the savannah open beneath you as the light changes.</p></article>
+          <article class="moment-card reveal"><span>First light</span><h3>Early morning game drive</h3><p>Cooler air, active wildlife and softer light make this one of the most rewarding times to be out.</p></article>
+          <article class="moment-card reveal"><span>Culture</span><h3>Maasai village visit</h3><p>Add a human dimension to the landscape with a visit that is planned respectfully and transparently.</p></article>
+          <article class="moment-card reveal"><span>Quiet</span><h3>Do nothing at camp</h3><p>Some of the strongest safari memories happen when the schedule leaves room for stillness.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="shell faq-grid">
+        <div class="section-copy reveal"><p class="eyebrow">Before you go</p><h2>Questions that shape the experience.</h2><p>These are the practical decisions worth making before the itinerary is locked.</p></div>
+        <div class="accordion reveal">
+          <details open><summary>Road safari or fly-in safari?</summary><p>Road travel shows more of Kenya and keeps the journey continuous. A fly-in approach reduces long transfer days and can make a shorter safari feel more relaxed.</p></details>
+          <details><summary>How many regions should I combine?</summary><p>For a short trip, fewer regions usually means more time on safari and less time checking in and out. Longer trips can use different landscapes to create contrast.</p></details>
+          <details><summary>What is normally part of the safari package?</summary><p>The current itinerary set commonly includes accommodation, specified meals, park fees, transportation, professional guiding, game drives, drinking water and airport pickup/drop-off. Exact inclusions should always be confirmed for the final itinerary.</p></details>
+          <details><summary>What should stay flexible?</summary><p>Wildlife does not follow a timetable. Good safari days leave room for the guide to change pace, remain at a sighting or move when conditions suggest something better elsewhere.</p></details>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="final-cta">
+      <img src="assets/elephant.webp" alt="Close portrait of an elephant" loading="lazy" />
+      <div class="final-overlay"></div>
+      <div class="shell final-copy reveal">
+        <p class="eyebrow">The goal is simple</p>
+        <h2>Come back with stories, not just photographs.</h2>
+        <a class="button primary" href="#top">Explore again</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><strong>Safari Experience</strong><p>Kenya journey concept site. Built as a static HTML/CSS/JavaScript project for simple GitHub deployment.</p></div>
+      <div><b>Explore</b><a href="#about">What safari is</a><a href="#destinations">Destinations</a><a href="#planner">Find your style</a></div>
+      <div><b>Plan</b><a href="#journey">Example journey</a><a href="#stays">Safari stays</a></div>
+    </div>
+  </footer>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>
